@@ -7,7 +7,7 @@ This project showcases how to build and deploy Python-based Azure Functions that
 
 Both functions were developed locally in Visual Studio Code, tested on a development machine, and successfully deployed to Azure.
 
-## ✅ Tasks Accomplished
+##  Tasks Accomplished
 
 ### 1. Output Binding to Azure Storage Queue
 - Followed Microsoft’s QuickStart guide for the Storage Queue output binding.  
@@ -20,7 +20,7 @@ Both functions were developed locally in Visual Studio Code, tested on a develop
 - Set up `mySampleDatabase` with a table named `dbo.ToDo`.  
 - Confirmed successful insertions triggered by HTTP requests using the Azure Query Editor.
 
-## ⚙️ Environment Configuration
+##  Environment Configuration
 
 ### Azure Services Provisioned
 
@@ -40,11 +40,15 @@ Both functions were developed locally in Visual Studio Code, tested on a develop
 - Azure Storage Explorer  
 - (Optional) Azurite for emulating queue storage locally
 
-## 📦 Steps to Begin Development
+##  Steps to Begin Development
 
-1. Open your project folder in VS Code or create a new Azure Functions project.  
+1. Open your project folder in VS Code or create a new Azure Functions project.
+  
 2. Sync cloud configuration to your local machine:  
    - Press `F1` → select **Azure Functions: Download Remote Settings...**  
    - Choose your deployed Function App  
    - Confirm when asked to replace `local.settings.json`  
    - Copy the updated `AzureWebJobsStorage` string for local testing
+  
+## youtube link
+https://youtu.be/unP3Ksjh-Bs
